@@ -19,7 +19,7 @@ The logical ERD visually represented the database and included:
 The database consisted of the following tables:
 
 Customers:
-This table stored all customer-specific details, including:
+This table stores all customer-specific details, including:
 Name
 Gender
 Address
@@ -28,7 +28,7 @@ National ID Number
 Contact Information
 
 Cards:
-This table stored details about individual cards, such as:
+This table stores details about individual cards, such as:
 Card Type (Credit/Debit)
 Issue Date
 Expiry Month
@@ -36,7 +36,7 @@ Expiry Year
 CVV2 Code
 
 Accounts:
-This table held information about specific accounts, including:
+This table heols information about specific accounts, including:
 Balance
 Creation Date
 
@@ -44,14 +44,14 @@ Dispositions:
 A bridge table connected to Customers, Accounts, and Cards.
 
 Transactions:
-This table, linked to Accounts, recorded each transaction. Key columns included:
+This table, linked to Accounts, records each transaction. Key columns included:
 Transaction Date
 Transaction Type (Deposit/Withdrawal)
 Amount
 Account Balance
 
 Loans:
-This table, linked to Accounts, recorded loan information. Key columns included:
+This table, linked to Accounts, records loan information. Key columns included:
 Loan Date
 Loan Amount
 Duration (in months)
