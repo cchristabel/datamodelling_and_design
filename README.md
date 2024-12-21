@@ -1,4 +1,4 @@
-# datamodelling_and_design_course
+# Project Description
 # Database to represent a bank customer  
 This project involved designing a database to represent a bank customer. The database was created to enable customers to access all typical banking services, such as holding multiple credit cards, loans, and accounts. 
 The project was completed in two key parts:
